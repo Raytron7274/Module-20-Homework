@@ -123,6 +123,7 @@ body {
 .prototype {
     display: flex;
     flex-direction: column;
+    width: 828px;
     align-items: center;
 }
 
@@ -143,4 +144,47 @@ body {
 .above {
     margin-left: 250px;
     margin-top: -150px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    width: 828px;
+}
+
+.userTests {
+    width: 828px;
+}
+
+.styleGuide {
+    width: 828px;
+}
+
+.styleguideImg {
+    display: flex;
+    width: 828px;
+    justify-content: center;
+}
+
+.finalSite {
+    display: flex;
+    flex-direction: column;
+    width: 828px;
+}
+
+.mobileRunThrough {
+    display: flex;
+    align-items: center;
+}
+
+.finalPrototype {
+    display: flex;
+    flex-direction: column;
+    width: 828px;
+}
+
+.finalThoughts {
+    display: flex;
+    flex-direction: column;
+    width: 828px;
 }
