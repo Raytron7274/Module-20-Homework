@@ -1,3 +1,23 @@
+h1 {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 500;
+} 
+
 .billboard {
     display: flex;
     align-items: center;
@@ -9,4 +29,118 @@
     height: 450px;
     width: 100%;
 }
- 
+
+.summary {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.overview {
+    height: 101px;
+    width: 404px;
+    margin-right: 20px;
+}
+
+ul {
+    padding: 0px;
+}
+
+li {
+    font-weight: 500;
+    font-size: 16px;
+    list-style-type: none;
+}
+
+.mobileHome {
+    height: 403px;
+    width: 250px;
+}
+
+.margin50 {
+    margin-top: 50px;
+}
+
+.margin20 {
+    margin-top: 20px;
+}
+
+.tools{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.tools img {
+    height: 50px;
+    width: 50px;
+}
+
+.explanation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.problem {
+    width: 404px;
+    height: 127px;
+    margin-right: 20px;
+}
+
+.solution {
+    width: 404px;
+    height: 127px;
+}
+
+.credits {
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
+    text-align: right;
+}
+
+.persona {
+    display: flex;
+    flex-direction: column;
+    width: 828px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cardSort {
+    display: flex;
+}
+
+.siteMap {
+    display: flex;
+}
+
+.prototype {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wireframing {
+    width: 828px;
+}
+
+.collage {
+    width: 828px;
+}
+
+.collage img {
+    display: flex;
+    width: 580px;
+    height: 300px;
+}
+
+.above {
+    margin-left: 250px;
+    margin-top: -150px;
+}
