@@ -16,7 +16,7 @@ h3 {
 p {
     font-size: 16px;
     font-weight: 500;
-} 
+}
 
 .billboard {
     display: flex;
@@ -65,7 +65,7 @@ li {
     margin-top: 20px;
 }
 
-.tools{
+.tools {
     display: flex;
     flex-direction: column;
     margin-left: 50px;
