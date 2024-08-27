@@ -1,21 +1,46 @@
+.praise-regular {
+    font-family: "Praise", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ranga-regular {
+    font-family: "Ranga", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ranga-bold {
+    font-family: "Ranga", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+
 h1 {
+    font-size: 50px;
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
+    font-family: robotoo, condensed;
+    padding: 25px;
+    font-weight: 500;
 }
 
 h2 {
     font-size: 32px;
     font-weight: 700;
+    font-family: roboto, condensed;
 }
 
 h3 {
     font-size: 20px;
     font-weight: 700;
+    font-family: roboto, condensed;
 }
 
 p {
     font-size: 16px;
     font-weight: 500;
+    font-family: roboto;
 }
 
 .billboard {
@@ -50,6 +75,7 @@ li {
     font-weight: 500;
     font-size: 16px;
     list-style-type: none;
+    font-family: roboto;
 }
 
 .mobileHome {
@@ -63,6 +89,10 @@ li {
 
 .margin20 {
     margin-top: 20px;
+}
+
+.margin10 {
+    margin-top: 10px;
 }
 
 .tools {
@@ -187,4 +217,32 @@ body {
     display: flex;
     flex-direction: column;
     width: 828px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 2px solid black;
+    width: 1200px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+footer li {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.footerNav {
+    display: flex;
+    margin-right: 20px;
+}
+
+.footerNav h2 {
+    text-decoration: underline;
 }
